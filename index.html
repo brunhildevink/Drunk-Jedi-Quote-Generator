@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drunk Jedi Quotation Generator</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="parent-container">
+    <h1 class="text-center">Some Stuff Drunk Jedis Say</h1>
+    <p class="text-center">Hit the Death Star to shoot drunk quotes!</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="#" id="quoteBtn"><img src="img/deathstar.png" alt="picture of death star" id="deathstar"></a>
+            <p>Or select how many quotes you want to generate</p>
+            <select id="selectForm" class="form-control-sm">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <select id="selectFormDrunkness" class="form-control-sm">
+              <option value="drunk">Drunk</option>
+              <option value="extradrunk">Extra Drunk</option>
+              <option value="wasted">Wasted</option>
+            </select>
+            <div id="quotes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='title'></div>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
